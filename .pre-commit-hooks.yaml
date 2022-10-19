@@ -1,0 +1,7 @@
+-   id: jira-id-in-commit-message
+    name: JIRA ticket id in commit message
+    description: This hook makes sure the commit message starts with a JIRA ticket id and ":" if the branch contains a JIRA id.
+    entry: jira-id-in-commit-message
+    language: python
+    types: [text]
+    stages: [prepare-commit-msg]
